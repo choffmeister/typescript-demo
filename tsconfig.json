@@ -1,0 +1,21 @@
+{
+    "version": "1.5.0-alpha",
+    "compileOnSave": false,
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": false
+    },
+    "filesGlob": [
+        "./src/**/*.ts"
+    ],
+    "files": [
+        "./src/Logger.ts",
+        "./src/index.ts"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "typescript-demo",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/.bin/gulp",
+    "test": "./node_modules/.bin/gulp test",
+    "postinstall": "./node_modules/.bin/tsd install"
+  },
+  "devDependencies": {
+    "extend": "2.0.1",
+    "gulp": "3.9.0",
+    "gulp-live-server": "0.0.21",
+    "gulp-typescript": "2.7.7",
+    "gulp-util": "3.0.6",
+    "gulp-watch": "4.3.4",
+    "through2": "2.0.0",
+    "tsd": "0.6.3",
+    "typescript": "1.5.0-beta"
+  },
+  "dependencies": {
+    "express": "4.13.0",
+    "serve-static": "1.10.0",
+    "winston": "1.0.0"
+  }
+}
