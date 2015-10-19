@@ -1,6 +1,7 @@
 /// <reference path="../typings/tsd.d.ts"/>
 
-import winston = require('winston');
+import * as winston from 'winston';
+winston.level = 'debug';
 
 class Logger {
   private name: string;
@@ -26,4 +27,6 @@ class Logger {
   }
 }
 
-export = (name: string): Logger => new Logger(name);
+export default function(name: string) {
+  return new Logger(name);
+}

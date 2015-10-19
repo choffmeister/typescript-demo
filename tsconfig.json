@@ -15,6 +15,7 @@
         "./src/**/*.ts"
     ],
     "files": [
+        "src/HttpClient.ts",
         "src/index.ts",
         "src/Logger.ts"
     ],
