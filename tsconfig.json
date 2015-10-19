@@ -1,5 +1,5 @@
 {
-    "version": "1.5.0-alpha",
+    "version": "1.6.3",
     "compileOnSave": false,
     "compilerOptions": {
         "target": "es5",
@@ -15,7 +15,8 @@
         "./src/**/*.ts"
     ],
     "files": [
-        "./src/Logger.ts",
-        "./src/index.ts"
-    ]
+        "src/index.ts",
+        "src/Logger.ts"
+    ],
+    "exclude": []
 }
